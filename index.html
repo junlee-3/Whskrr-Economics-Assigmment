@@ -6,12 +6,12 @@
     <link href="styles.css" rel="stylesheet" type="text/css"/>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="icon" type="image/x-icon" href="assets/favicon.png">
+    <script src = "script.js"></script>
 </head>
 <body>
     <div class="topnav">
         <p>Whiskrr</p>
-        <a href="projects.html">Projects</a>
-        <a class="active">Home</a>
+        <a href = "index.html" class="active">Home</a>
 
     </div>
     <div class="hero" id="hero1">
@@ -19,31 +19,30 @@
        <p class="herosubheading">The pet wellbeing app</p>
     </div>
     <div class="hero" id="hero2">
-        <h2 class="herominorheading"><a href="projects.html">Featured Projects</a></h2>
+        <h2 class="herominorheading">My pets</h2>
             <div class="projectcontainer">
                 <div class="item">
                     <div class="githubcard">
-                        <img src="assets/boxelRebound.png" class="githubprofilepic" alt="Logo for the project"/>
-                        <a href="https://github.com/Jun3-dev/Boxel-Rebound-Hacks"class="githubprojectlink"><h2 class="githubprojectlink">Boxel Rebound Hacks</h2></a>
-                        <p class="aboutgithubproject">A script written in javascript which gives you ability to cheat in the popular chrome extention game "Boxel Rebound"</p>
+                        <img src="peterpfp.png" class="githubprofilepic" alt="Dog"/>
+                        <a href="#"class="githubprojectlink"><h2 class="githubprojectlink">Peter</h2></a>
+                        <button style="background-color: #282a2d;
+                        width: 75px; height: 20px;">Manage</button>
                     </div>
                 </div>
                 <div class="item">
                     <div class="githubcard">
-                        <img src="assets/myassistant.png" class="githubprofilepic" alt="Logo for the project"/>
-                        <a href="https://github.com/junlee-3/MyAssistant"class="githubprojectlink"><h2 class="githubprojectlink">MyAssistant</h2></a>
-                        <p class="aboutgithubproject">A virtual assistant written in python. The virtual assistant can do some pretty basic functions, and I'm working on 
-                            adding some more functions such as road directions and weather.
-                        </p>
+                        <img src="dogpfp.jpg" class="githubprofilepic" alt="Dog"/>
+                        <a href="maxie.html"class="githubprojectlink"><h2 class="githubprojectlink">Maxie</h2></a>
+                        <button style="background-color: #282a2d;
+                        width: 75px; height: 20px;">Manage</button>
                     </div>
                 </div>
                 <div class="item">
                     <div class="githubcard">
-                        <img src="assets/pygameshooter.png" class="githubprofilepic" alt="Logo for the project"/>
-                        <a href="https://github.com/Jun3-dev/JMALCC-GAME-DEV"class="githubprojectlink"><h2 class="githubprojectlink">Platformer Shooter</h2></a>
-                        <p class="aboutgithubproject"> <b>THIS IS A WORK IN PROGRESS </b> This game is a platformer where your character can
-                            shoot and throw grenades at enemies. The player can also pick up coins, ammo crates, and extra grenades.
-                        </p>
+                        <img src="cat.png" class="githubprofilepic" alt="Cat"/>
+                        <a href="#"class="githubprojectlink"><h2 class="githubprojectlink">[Insert Cat Name]</h2></a>
+                        <button style="background-color: #282a2d;
+                        width: 75px; height: 20px;">Manage</button>
                     </div>
                 </div>
             </div>
@@ -51,55 +50,51 @@
     
     <div class="hero" id="hero3">
         <div class="image">
-            <img src="assets/jun1.jpg" class="fuckyoujun" alt="A drawing of me!"/>
+            <img src="peter.png" class="fuckyoujun" alt="A drawing of me!"/>
         </div>
         <div class="text">
-            <h1>Hi! I'm Jun</h1>
-            <p class="aboutjuntext">I am a developer who codes in C#, Javascript, Python, and Java. I am currently working on a Virtual Assistant, Networking a chat app, doing some fun work with my NodeMCU,
-                some electron development and game development on platforms such as pygame and Unity. I am interested in learning languages like C++, Kotlin, and Rust. I've made this Website
-                to showcase some of my projects and portfolio, and make it easier for people to connect with <a href = "jungallery.html" style="text-decoration: none">me</a>.
-            </p> 
+            <div id="myDIV" class="header">
+                <h2 style="margin:5px">Upcoming Appointments</h2>
+                <input type="text" id="myInput" placeholder="Title...">
+                <span onclick="newElement()" class="addBtn">Add</span>
+              </div>
+              
+              <ul id="myUL">
+                <li class="checked">Aug 24th -> Peters Vaccinations</li>
+                <li>Sep 3 -> Untung Checkup</li>
+                <li>Sep 13 -> Maxie's Checkup</li>
+                <li>Sep 24 -> Peters Monthly Checkup</li>
+              </ul>
         </div>
-    </div>
-    <div class="hero" id="songs">
-        <h2 class="songsOfTheMonth">Songs of the month</h2>
-        <p class="text">*Banger* Songs I like listening to currentley</p>
-            <div class="projectcontainer">
-                <div class="item">
-                    <div class>
-                        <iframe style="border-radius:12px" src="https://open.spotify.com/embed/track/3FtYbEfBqAlGO46NUDQSAt?utm_source=generator" width="100%" height="380" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture"></iframe>
-                    </div>
-                </div>
-                <div class="item">
-                    <div class>
-                        <iframe style="border-radius:12px" src="https://open.spotify.com/embed/track/3Cx4yrFaX8CeHwBMReOWXI?utm_source=generator" width="100%" height="380" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture"></iframe>
-                    </div>
-                </div>
-                <div class="item">
-                    <div class>
-                        <iframe style="border-radius:12px" src="https://open.spotify.com/embed/track/4bHsxqR3GMrXTxEPLuK5ue?utm_source=generator" width="100%" height="380" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture"></iframe>
-                    </div>
-                </div>
-            </div>
     </div>
     <div class="hero" id="hero4">
         <div class="text">
-            <h1>More About Me and Current Projects</h1>
-            <p class="aboutjuntext">I am into aviation, and enjoy playing many different flight simulators. I really enjoy music, and I play both the piano and the guitar, 
-                and I am currentley doing my piano diploma this year, and doing Grade 5 Guitar. I like speedcubing, and enjoy going to a WCA competition once in a while, I will have my 
-                WCA profile liked <a href="https://www.worldcubeassociation.org/persons/2022LEEJ11">here.</a> I do sailing, dragon boating, and swimming. Currently, I am using a NodeMCU
-                ESP8266 and experimenting with many things you can do with it. I have been developing a speedcamera/radar gun that can measure an objects speed when travelling towards it.
-                I have hosted a web server which can control multiple different aspects of the board (such as activating and customizing a LED ring), made some arcade games with a button and LED
-                ring, and I am currentley in the process of (attempting) to create a ripoff alexa. (Right now the speaker can't do a voice, so its just using Serial.print()). 
-            </p>
+            <h1>Walking Schedule</h1>
+            <table style="border: 1px; border-collapse: collapse;">
+                <tr>
+                  <th style = "border: 1px solid #dddddd; text-align: left; padding: 8px">Maxie</th>
+                  <th style = "border: 1px solid #dddddd; text-align: left; padding: 8px">Peter</th>
+                  <th style = "border: 1px solid #dddddd; text-align: left; padding: 8px">Untung</th>
+                </tr>
+                <tr>
+                  <td style = "border: 1px solid #dddddd; text-align: left; padding: 8px">5:30pm Monday, Wednesday, Friday</td>
+                  <td style = "border: 1px solid #dddddd; text-align: left; padding: 8px">Same as Maxie</td>
+                  <td style = "border: 1px solid #dddddd; text-align: left; padding: 8px">Cats don't go for walks :P</td>
+                </tr>
+                <tr>
+                  <td style = "border: 1px solid #dddddd; text-align: left; padding: 8px">6:00am Tuesday, Thursday, Saturaday, Sunday</td>
+                  <td style = "border: 1px solid #dddddd; text-align: left; padding: 8px">Same as Maxie</td>
+                  <td style = "border: 1px solid #dddddd; text-align: left; padding: 8px">Cats don't go for walks :P</td>
+                </tr>
+              </table>
         </div>
         <div class="image">
-            <img src="http://cdn.mcauto-images-production.sendgrid.net/d74a2292b1945860/8dd425b1-0eee-477a-9e7a-be393174e7bd/1022x767.jpeg" height="400px" alt="DCS Cover"/>
+            <img src="dogpfp.jpg" height="400px" alt="DCS Cover"/>
         </div>
     </div>
     <div class="footer" id="footerhome">
-        <div class="socialsflex"><a href="https://www.instagram.com/junlee_3/" class="socialsitem"><img src="assets/instagram.svg" height="17"/> Instagram </a><a href="https://github.com/jun3-dev" class="socialsitem"><img src="assets/github.svg" height="17"/> Github </a> <a href="https://www.youtube.com/channel/UCmLULKWRpl4wRuUW-ywWHFA" class="socialsitem"><img src="assets/youtube.svg" height="17"/> Youtube </a></div>
-        <p class="mecredit">Website made by <a href="https://github.com/archibowl">Archibowl</a> and <a href = "https://github.com/junlee-3">Jun Lee</a></p>
+        <div class="socialsflex"><a href="https://www.instagram.com/junlee_3/" class="socialsitem"><img src="instagram.svg" height="17"/> Instagram </a><a href="https://github.com/jun3-dev" class="socialsitem"><img src="github.svg" height="17"/> Github </a> <a href="https://www.youtube.com/channel/UCmLULKWRpl4wRuUW-ywWHFA" class="socialsitem"><img src="youtube.svg" height="17"/> Youtube </a></div>
+        <p class="mecredit">Application programmed by <a href="https://junlee3.com">Jun Lee</a></p>
         <div class="oldbrowsers">
             <img src="assets/internetexplorer.jpg" alt="Compatible with Microsoft internet explorer"/>
             <img src="assets/netscape.jpg"  alt="And Netscape Now 3.0!"/>
