@@ -1,0 +1,464 @@
+/*color palette
+    hex(11151C) hsl(218,24%,9%)
+    hex(212D40) hsl(217,32%,19%)
+    hex(364156) hsl(219,23%,27%)
+    hex(7D4E57) hsl(349,23%,40%)
+    hex(D66853) hsl(10,62%,58%)
+*/
+@font-face {
+    font-family: 'Contemporary';
+    font-style: normal;
+    font-weight: 400;
+    src: local('Contemporary'), local('Contemporary-Regular'), url('https://vicr123.com/assets/fonts/Contemporary-Regular-954a9a92658ecef6afca8dbccd5aab6d.ttf');
+}
+*{
+    color: white;
+    font-family: Contemporary;
+    margin-top: 0;
+}
+body{
+    margin: 0px;
+}
+    .topnav p {
+        float: left;
+        margin-top: 14px;
+        margin-left: 10px;
+        font-size: 20px;
+    }
+
+    .topnav {
+        height: 48px;
+        position: fixed;
+        z-index: 1;
+        width: 100%;
+        align-items: center;
+        background-color: hsl(240, 10%, 15%);
+    }
+
+    /*following code copied from w3schools (https://www.w3schools.com/howto/howto_js_topnav.asp) (modified)*/
+    .topnav a {
+        float: right;
+        color: #ffffff;
+        text-align: center;
+        margin-right: 10px;
+        margin-top: 3px;
+        padding: 11px 16px;
+        text-decoration: none;
+        font-size: 17px;
+        border-radius: 10px;
+    }
+
+    /*w3schools code ends here*/
+    .topnav .active {
+        background-color: hsl(210, 100%, 61%);
+    }
+
+    .topnav a:hover {
+        background-color: rgb(22, 22, 27);
+        box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.19);
+    }
+
+    .topnav .active:hover {
+        background-color: 	hsl(210, 100%, 72%);
+        box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.19);
+    }
+
+    .hero {
+        height: 500px;
+    }
+
+    #hero1 {
+        background: hsl(210, 100%, 72%);
+        background: linear-gradient(32deg, hsl(210, 100%, 72%) 22%, hsl(210, 100%, 72%) 23%, hsl(210, 100%, 50%) 100%);
+    }
+
+    #hero2 {
+        background-color: hsl(240, 10%, 11%);
+        height: 400px;
+    }
+
+    #songs {
+        background-color: hsl(240, 10%, 11%);
+        height: 530px;
+    }
+
+    .heroheading {
+        padding-top: 210px;
+        margin-left: 30px;
+    }
+
+    .herosubheading {
+        margin-left: 30px;
+        font-size: 20px;
+    }
+
+    .herominorheading {
+        margin-left: 30px;
+        padding-top: 30px;
+        font-size: 25px;
+    }
+
+    .songsOfTheMonth {
+        margin-left: 22px;
+        padding-top: 30px;
+        font-size: 25px;
+    }
+
+    .projectcontainer {
+        display: flex;
+        flex-wrap: wrap;
+        align-items: center;
+        justify-content: space-evenly;
+        flex-direction: row;
+    }
+
+    .githubcard {
+        height: 200px;
+        width: 350px;
+        background-color: hsl(240, 20%, 10%);
+        border-radius: 25px;
+        padding-left: 20px;
+        padding-right: 20px;
+        padding-bottom: 20px;
+        margin-bottom: 20px;
+        overflow: hidden;
+        text-overflow: ellipsis;
+    }
+
+    .githubprofilepic {
+        border-radius: 99999px;
+        height: 75px;
+        width: 75px;
+        margin-top: 20px;
+    }
+
+    .githubprojectlink {
+        text-decoration: none;
+    }
+
+    .githubprojectlink:hover {
+        color:hsl(210, 100%, 72%);;;
+    }
+
+    .aboutgithubproject {
+        font-size: 14px;
+        color: grey;
+    }
+
+    .footer {
+        background-color: hsl(240, 10%, 5%);
+        padding: 4% 0;
+        text-align: center;
+    }
+
+    .projectsmain {
+        background-color: hsl(240, 10%, 11%);
+        padding: 50px 10px;
+    }
+
+    .projectsmainflex {
+        display: flex;
+        flex-wrap: wrap;
+        align-items: center;
+        justify-content: center;
+        flex-direction: row;
+        padding-top: 30px;
+    }
+
+    .projectsmainflex .githubcard {
+        margin: 15px;
+    }
+
+    .projectsmain h1 {
+        margin-left: 10px;
+    }
+
+    .topbanner {
+        height: 100px;
+        background: hsl(210, 100%, 72%);;;
+        background: linear-gradient(32deg, 	hsl(210, 100%, 72%) 22%, hsl(210, 100%, 72%) 23%, hsl(210, 100%, 50%) 100%);
+        padding-top: 100px;
+        padding-left: 30px;
+    }
+
+    a {
+        text-decoration: none;
+    }
+
+    .socialsflex {
+        display: flex;
+        flex-wrap: wrap;
+        align-items: center;
+        justify-content: center;
+        flex-direction: row;
+    }
+
+    .socialsitem {
+        margin-left: 25px;
+        display: flex;
+        align-items: end;
+        margin-bottom: 5px;
+    }
+
+    .mecredit { /*:)*/
+        padding-top: 20px;
+
+    }
+
+    .mecredit a:hover {
+        color: hsl(210, 100%, 72%);
+    }
+
+    .socialsitem img {
+        margin-top: 20px;
+        margin-right: 10px;
+    }
+
+    .socialsitem:hover {
+        color: hsl(210, 100%, 72%);
+    }
+
+    #hero3 {
+        background-color: hsl(240, 10%, 9%);
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .image {
+        flex-basis: 40%;
+        padding-left: 100px;
+        padding-right: 100px;
+    }
+
+    .image img {
+        border-radius: 70px;
+    }
+
+    .text {
+        font-size: 20px;
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+
+    ::-webkit-scrollbar {
+        width: 12px;
+        background-color: #282a2d;
+    }
+
+    ::-webkit-scrollbar-button {
+        display: none;
+        width: 0;
+        height: 0;
+    }
+
+    ::-webkit-scrollbar-corner {
+        background-color: #282a2d;
+    }
+
+    ::-webkit-scrollbar-thumb {
+        background-color: #4a4d52;
+        border: 2px solid #282a2d;
+        border-radius: 10px;
+    }
+
+    #hero4 {
+        background-color: hsl(240, 10%, 9%);
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        padding-left: 80px;
+    }
+
+    .aboutjuntext {
+        padding-right: 30px;
+    }
+    .fuckyoujun{
+        height: 400px;
+    }
+    .jungallerybody{
+        background-color: hsl(240, 10%, 9%);
+    }
+    .jungallerybody h1{
+        font-size: 40px;
+    }
+    .galleryflex{
+        display: flex;
+        flex-wrap: wrap;
+        align-items: center;
+        justify-content: space-evenly;
+        flex-direction: row;
+    }
+    .galleryitem{
+        height: 400px;
+        padding-top: 15px;
+        border-radius: 60px;
+    }
+    .gallerytopbanner{
+        height: 100px;
+        background-image: url("assets/junbutmultiplied.png");
+        background-repeat: repeat-x;
+        background-size: 200px 300px;
+        padding-top: 50px;
+        padding-left: 30px;
+        background-blend-mode: overlay;
+        background-color: rgba(0, 0, 0, 0.4);
+    }
+    .oldbrowsers{
+        float: right;
+        padding-right: 10px;
+    }
+    #hero5{
+        background-color: hsl(240, 10%, 11%);
+        height: 600px;
+        background-color: hsl(240, 15%, 10%);
+    }
+    #hero5 .projectcontainer{
+        padding-left: 300px;
+        padding-right: 300px;
+    }
+@media only screen and (max-width: 620px) {
+    /*Mobile*/
+    html, body {
+        max-width: 100%;
+        overflow-x: hidden;
+    }
+
+    .githubcard {
+        width: 80%;
+        padding: 0% 10%;
+    }
+
+    .projectcontainer {
+        display: flex;
+        flex-wrap: wrap;
+        align-items: center;
+        justify-content: flex-start;
+        flex-direction: column;
+    }
+
+    #hero2 {
+        height: 800px;
+        height: 800px;
+    }
+    
+    #songs {
+        height: 800px;
+        background-color: hsl(240, 10%, 11%);
+    }
+
+    .image img {
+        height: 300px;
+    }
+
+    .aboutjuntext {
+        padding-right: 0px;
+    }
+
+    .text {
+        font-size: 20px;
+        text-align: center;
+    }
+
+    #hero3 {
+        background-color: hsl(240, 10%, 9%);
+        display: flex;
+        align-items: center;
+        justify-content: flex-start;
+        flex-direction: column;
+        height: 800px;
+        padding-bottom: 100px;
+        padding-top: 20px;
+    }
+
+    #hero4 {
+        display: flex;
+        justify-content: flex-start;
+        flex-direction: column-reverse;
+        text-align: center;
+        float: left;
+        padding-top: 300px;
+        padding-left: 0px;
+        width: 100%;
+    }
+
+    #footerhome {
+        margin-top: 800px;
+    }
+    .footer{
+        padding: 14% 0%;
+    }
+    .gallerytopbanner{
+        height: 240px;
+    }
+    #hero5{
+        height: 1400px;
+        padding-top: 20px;
+    }
+    #hero5 .projectcontainer{
+        padding: 0px;
+    }
+}
+@media only screen and (min-width: 620px) and (max-width: 820px){ /*vertical tablet*/
+    html, body {
+        max-width: 100%;
+        overflow-x: hidden;
+    }
+    .githubcard{
+        width: 100%;
+    }
+    .projectcontainer {
+        display: flex;
+        flex-wrap: wrap;
+        align-items: center;
+        justify-content: flex-start;
+        flex-direction: column;
+    }
+    #hero2{
+        height: 800px;
+    }
+    #songs {
+        height: 800px;
+        background-color: hsl(240, 10%, 11%);
+    }
+    .image img{
+        height: 300px;
+    }
+    .aboutjuntext {
+        padding-right: 0px;
+    }
+    .text {
+        font-size: 20px;
+        text-align: center;
+    }
+    #hero3 {
+        background-color: hsl(240, 10%, 9%);
+        display: flex;
+        align-items: center;
+        justify-content: flex-start;
+        flex-direction: column;
+        height: 400px;
+    }
+    #hero4{
+        display: flex;
+        justify-content: flex-start;
+        flex-direction: column-reverse;
+        text-align: center;
+        float: left;
+        padding-top: 300px;
+        padding-left: 0px;
+        width: 100%;
+    }
+    #footerhome{
+        margin-top: 800px;
+    }
+}
+@media only screen and (min-width: 820px) and (max-width: 1170px){ /*horizontal tablet*/
+    #hero2{
+        height: 600px;
+    }
+    #songs {
+        height: 800px;
+        background-color: hsl(240, 10%, 11%);
+    }
+}
