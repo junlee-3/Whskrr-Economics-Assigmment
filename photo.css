@@ -12,5 +12,52 @@ video {
 
 body {
     text-align: center;
-    padding-top: 20px;
+    padding: 0;
+    margin: 0;
+
+}
+
+
+.topnav p {
+    float: left;
+    margin-top: 14px;
+    margin-left: 10px;
+    font-size: 20px;
+}
+
+.topnav {
+    height: 48px;
+    position: fixed;
+    z-index: 1;
+    width: 100%;
+    align-items: center;
+    background-color: hsl(240, 10%, 15%);
+}
+
+/*following code copied from w3schools (https://www.w3schools.com/howto/howto_js_topnav.asp) (modified)*/
+.topnav a {
+    float: right;
+    color: #ffffff;
+    text-align: center;
+    margin-right: 10px;
+    margin-top: 3px;
+    padding: 11px 16px;
+    text-decoration: none;
+    font-size: 17px;
+    border-radius: 10px;
+}
+
+/*w3schools code ends here*/
+.topnav .active {
+    background-color: hsl(210, 100%, 61%);
+}
+
+.topnav a:hover {
+    background-color: rgb(22, 22, 27);
+    box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.19);
+}
+
+.topnav .active:hover {
+    background-color: 	hsl(210, 100%, 72%);
+    box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.19);
 }
