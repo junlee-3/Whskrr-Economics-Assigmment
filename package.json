@@ -20,5 +20,8 @@
   "homepage": "https://github.com/junlee-3/Whskrr-Economics-Assigmment#readme",
   "devDependencies": {
     "electron": "^20.0.3"
+  },
+  "dependencies": {
+    "electron-squirrel-startup": "^1.0.0"
   }
 }
